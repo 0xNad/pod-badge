@@ -1,0 +1,11 @@
+{
+  "name": "round 1: the badge",
+  "run": "node .launchpad/checks/round-1/run.mjs",
+  "timeoutSeconds": 180,
+  "tests": [
+    "prints a well-formed SVG badge for every state",
+    "shows the pod's name, its state and its round",
+    "escapes the name",
+    "refuses bad input with a reason on stderr and nothing on stdout"
+  ]
+}

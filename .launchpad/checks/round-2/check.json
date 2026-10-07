@@ -1,0 +1,10 @@
+{
+  "name": "round 2: Gasket says",
+  "run": "node .launchpad/checks/round-2/run.mjs",
+  "timeoutSeconds": 180,
+  "tests": [
+    "--status adds Gasket's line for every state",
+    "--json prints the pod's summary",
+    "refuses an unknown flag"
+  ]
+}
