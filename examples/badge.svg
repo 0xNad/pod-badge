@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="272" height="32" viewBox="0 0 272 32" role="img" aria-label="agent-card: COOKING, round 2 of 3">
+  <title>agent-card: COOKING, round 2 of 3</title>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "DejaVu Sans Mono", "Liberation Mono", monospace; }
+    .name { font-size: 13px; font-weight: 600; white-space: pre; }
+    .label { font-size: 11px; font-weight: 700; letter-spacing: 1px; }
+    .glow { animation: breathe 3.2s ease-in-out infinite alternate; }
+    @keyframes breathe { from { opacity: .12 } to { opacity: .5 } }
+    @keyframes flicker { 50% { opacity: .15 } }
+    @media (prefers-reduced-motion: reduce) { .glow { animation: none; } }
+  </style>
+  <rect width="272" height="32" rx="3" fill="#0D0908"/>
+  <rect x=".5" y=".5" width="271" height="31" rx="2.5" fill="none" stroke="#F3EEE9" stroke-opacity=".14"/>
+  <circle class="glow" cx="14" cy="16" r="8.5" fill="#FF7A1A" opacity=".35"/>
+  <circle cx="14" cy="16" r="4" fill="#FF7A1A"/>
+  <text class="name" x="65" y="20.5" text-anchor="middle" fill="#F3EEE9" xml:space="preserve">agent-card</text>
+  <rect x="114" y="6" width="69.2" height="20" rx="2" fill="#FF7A1A"/>
+  <text class="label" x="149.1" y="20.5" text-anchor="middle" fill="#0D0908">COOKING</text>
+  <text class="label" x="227.9" y="20.5" text-anchor="middle" fill="#C9C0B9">ROUND 2/3</text>
+  <rect x="193.2" y="24" width="68.4" height="2" rx="1" fill="#3A302B"/>
+  <rect x="193.2" y="24" width="45.6" height="2" rx="1" fill="#FF7A1A"/>
+</svg>
